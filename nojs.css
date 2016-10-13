@@ -4,8 +4,8 @@ html::after {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 999999999;
-  content: "Please enable JavaScript in your browser.\00000a\
-  The JavaScript support is needed in order to make this application work.";
+  content: "This application requires JavaScript to function.\00000a\
+  It appears to be disabled by your browser's settings or ad blocking software.";
   padding: 3rem;
   font-size: 1rem;
   text-align: center;
@@ -14,9 +14,9 @@ html::after {
   background: rgba(255, 255, 255, .9);
   box-shadow: -10px 36px 91px rgba(0, 0, 0, .4);
   visibility: hidden;
-  animation: 1s fadeIn;
+  animation: 4s fadeIn;
   animation-fill-mode: forwards;
-  -webkit-animation: 1s fadeIn;
+  -webkit-animation: 4s fadeIn;
   -webkit-animation-fill-mode: forwards;
 }
 
