@@ -1,6 +1,6 @@
 Package.describe({
   name: 'eha:nojs-banner',
-  version: '1.0.7',
+  version: '1.1.0',
   summary: 'Display a banner if JavaScript is disabled',
   git: 'https://github.com/ecohealthalliance/meteor-nojs-banner.git',
   documentation: 'README.md'
@@ -14,7 +14,6 @@ Package.onUse(function(api) {
   ], 'client');
 
   api.addFiles([
-    'nojs.css',
-    'yes.js'
+    'head.html'
   ], 'client');
 });
